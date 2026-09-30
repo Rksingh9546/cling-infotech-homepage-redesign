@@ -12,7 +12,7 @@ export const ClingLogo: React.FC<ClingLogoProps> = ({
   return (
     <div className={`inline-flex items-center gap-2.5 select-none ${className}`}>
       <img
-        src="public/images/logo.jpg"
+        src="/images/logo.jpg"
         alt="Cling Info Tech"
         className="h-full w-auto object-contain"
       />
